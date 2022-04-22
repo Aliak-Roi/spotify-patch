@@ -1,4 +1,4 @@
-﻿param (
+param (
   [Parameter()]
   [switch]
   $UninstallSpotifyStoreEdition = (Read-Host -Prompt 'Uninstall Spotify Windows Store edition if it exists (Y/N)') -eq 'y',
@@ -106,23 +106,16 @@ function Test-SpotifyVersion
 }
 
 Write-Host @'
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-░█████╗░██╗░░░░░██╗░█████╗░██╗░░██╗  ██████╗░░█████╗░██╗
-██╔══██╗██║░░░░░██║██╔══██╗██║░██╔╝  ██╔══██╗██╔══██╗██║
-███████║██║░░░░░██║███████║█████═╝░  ██████╔╝██║░░██║██║
-██╔══██║██║░░░░░██║██╔══██║██╔═██╗░  ██╔══██╗██║░░██║██║
-██║░░██║███████╗██║██║░░██║██║░╚██╗  ██║░░██║╚█████╔╝██║
-╚═╝░░╚═╝╚══════╝╚═╝╚═╝░░╚═╝╚═╝░░╚═╝  ╚═╝░░╚═╝░╚════╝░╚═╝
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*****************
+@mrpond message:
+#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
+Please retweet these hashtag, help me stop dictator government!
+*****************
 '@
 
 Write-Host @'
 *****************
-@mrpond message:
-Join ＃ASTRAL WRLĐ discord server !
-https://dsc.gg/astral-wrld
+Authors: @Nuzair46, @KUTlime
 *****************
 '@
 
@@ -365,14 +358,9 @@ Start-Process -WorkingDirectory $spotifyDirectory -FilePath $spotifyExecutable
 Write-Host 'Done.'
 
 Write-Host @'
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-░█████╗░██╗░░░░░██╗░█████╗░██╗░░██╗  ██████╗░░█████╗░██╗
-██╔══██╗██║░░░░░██║██╔══██╗██║░██╔╝  ██╔══██╗██╔══██╗██║
-███████║██║░░░░░██║███████║█████═╝░  ██████╔╝██║░░██║██║
-██╔══██║██║░░░░░██║██╔══██║██╔═██╗░  ██╔══██╗██║░░██║██║
-██║░░██║███████╗██║██║░░██║██║░╚██╗  ██║░░██║╚█████╔╝██║
-╚═╝░░╚═╝╚══════╝╚═╝╚═╝░░╚═╝╚═╝░░╚═╝  ╚═╝░░╚═╝░╚════╝░╚═╝
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*****************
+@mrpond message:
+#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
+Please retweet these hashtag, help me stop dictator government!
+*****************
 '@
