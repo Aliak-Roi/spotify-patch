@@ -106,9 +106,12 @@ function Test-SpotifyVersion
 }
 
 Write-Host @'
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Discord: https://dsc.gg/astral-wrld
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*****************
+Author: mrpond
+Remake by Aliak Roi
+*****************
+Discord: https://dsc.gg/astral-wrld
+*****************
 '@
 
 $spotifyDirectory = Join-Path -Path $env:APPDATA -ChildPath 'Spotify'
@@ -303,7 +306,7 @@ if ($RemoveAdPlaceholder)
   }
   else
   {
-    Write-Host 'Could not find xpui.js, please open an issue on the BlockTheSpot repository.'
+    Write-Host 'Could not find xpui.js, DM Aliak Roi'
   }
 
   if ($xpuiContents)
@@ -351,8 +354,9 @@ Write-Host 'Done.'
 
 Write-Host @'
 *****************
-@mrpond message:
-#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
-Please retweet these hashtag, help me stop dictator government!
+Author: mrpond
+Remake by Aliak Roi
+*****************
+Discord: https://dsc.gg/astral-wrld
 *****************
 '@
