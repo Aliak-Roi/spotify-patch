@@ -106,8 +106,9 @@ function Test-SpotifyVersion
 }
 
 Write-Host @'
-▄▀█ █░░ █ ▄▀█ █▄▀   █▀█ █▀█ █
-█▀█ █▄▄ █ █▀█ █░█   █▀▄ █▄█ █
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Discord: https://dsc.gg/astral-wrld
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 '@
 
 $spotifyDirectory = Join-Path -Path $env:APPDATA -ChildPath 'Spotify'
