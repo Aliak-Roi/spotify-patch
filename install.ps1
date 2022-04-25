@@ -106,32 +106,17 @@ function Test-SpotifyVersion
 }
 
 Write-Host @'
+*****************
 @mrpond message:
-*************************** |
-*                         * |
-*        Developers       * |
-*                         * |
-*************************** |
-*                         * |
-*        Daksh777         * |
-*        Aliak Roi        * |
-*                         * |
-*************************** |
-____________________________|
+#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
+Please retweet these hashtag, help me stop dictator government!
+*****************
 '@
 
 Write-Host @'
-*************************** |
-*                         * |
-*        Developers       * |
-*                         * |
-*************************** |
-*                         * |
-*        Daksh777         * |
-*        Aliak Roi        * |
-*                         * |
-*************************** |
-____________________________|
+*****************
+Authors: @Nuzair46, @KUTlime
+*****************
 '@
 
 $spotifyDirectory = Join-Path -Path $env:APPDATA -ChildPath 'Spotify'
@@ -373,16 +358,9 @@ Start-Process -WorkingDirectory $spotifyDirectory -FilePath $spotifyExecutable
 Write-Host 'Done.'
 
 Write-Host @'
+*****************
 @mrpond message:
-*************************** |
-*                         * |
-*        Developers       * |
-*                         * |
-*************************** |
-*                         * |
-*        Daksh777         * |
-*        Aliak Roi        * |
-*                         * |
-*************************** |
-____________________________|
+#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
+Please retweet these hashtag, help me stop dictator government!
+*****************
 '@
