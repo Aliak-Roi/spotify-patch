@@ -1,4 +1,4 @@
-﻿param (
+param (
   [Parameter()]
   [switch]
   $UninstallSpotifyStoreEdition = (Read-Host -Prompt 'Uninstall Spotify Windows Store edition if it exists (Y/N)') -eq 'y',
@@ -104,6 +104,21 @@ function Test-SpotifyVersion
     return ($MinimalSupportedVersion.CompareTo($TestedVersion) -le 0)
   }
 }
+
+Write-Host @'
+@mrpond message:
+*************************** |
+*                         * |
+*        Developers       * |
+*                         * |
+*************************** |
+*                         * |
+*        Daksh777         * |
+*        Aliak Roi        * |
+*                         * |
+*************************** |
+____________________________|
+'@
 
 Write-Host @'
 *************************** |
@@ -356,3 +371,18 @@ Write-Host 'Patching Complete, starting Spotify...'
 
 Start-Process -WorkingDirectory $spotifyDirectory -FilePath $spotifyExecutable
 Write-Host 'Done.'
+
+Write-Host @'
+@mrpond message:
+*************************** |
+*                         * |
+*        Developers       * |
+*                         * |
+*************************** |
+*                         * |
+*        Daksh777         * |
+*        Aliak Roi        * |
+*                         * |
+*************************** |
+____________________________|
+'@
